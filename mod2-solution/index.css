@@ -1,0 +1,107 @@
+
+
+#menu {
+    border: auto
+     double black;
+    font: arial ;
+    text-transform: uppercase;
+    background-color: rgb(142, 202, 130);
+    padding: auto;
+    margin: 20px;;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+#idly {
+    border: 2px solid black;
+
+    font: arial ;
+    text-align: center;
+    background-color: gray;
+    padding-top: auto
+    ;
+    margin: auto;
+    box-sizing: border-box;
+    
+
+
+}
+
+#wada {
+    border: 2px solid black;
+
+    font: arial ;
+    text-align: center;
+    background-color: gray;
+    padding-top: auto
+    ;
+    
+    ;
+    box-sizing: border-box;
+    margin: auto;
+    
+}
+#dosa {
+    border: 2px solid black;
+    font: arial ;
+    text-align: center;
+    background-color: gray;
+    padding-top: auto
+    ;
+    box-sizing: border-box;
+    margin: auto;
+    
+    
+}
+#do1{
+    background-color: green;
+    text-transform: uppercase;
+
+}
+
+#id1{
+    background-color: red;
+    text-transform: uppercase;
+}
+#wa1{
+    background-color: rgb(114, 114, 223);
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 991px) and (min-width: 768px){
+    #idli{
+        width: 100%;
+        clear: both;
+
+    }
+    #wada{
+        width: 50%;
+        float: left;
+    }
+    #dosa{
+        width: 50%;
+        float: left;
+    }
+
+}
+
+@media screen and (min-width: 900px){
+    #idli{
+        width: 30%;
+        float :left;
+
+    }
+    #wada{
+        width: 30%;
+        float: left;
+    }
+    #dosa{
+        width:30%;
+        float: left;
+    }
+
+}
+
+
